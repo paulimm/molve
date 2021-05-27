@@ -24,7 +24,15 @@
   margin-left: 10px;
   padding: 10px 10px 5px 15px;
   text-decoration: none;
-  margin-left: -6.5rem; }
+  margin-left: -6.5rem;
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*BLOQUE DOS*/
 /*Seccion dos de mi INDEX: ¿Quienes somos?*/
@@ -326,7 +334,15 @@ section h2 {
 /* Tercera seccion - Descripcion servicios */
 .titulos {
   margin-top: 60px;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .tituloLiquidos {
   color: #1F376A;
